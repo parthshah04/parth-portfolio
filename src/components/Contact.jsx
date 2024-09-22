@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { Github, Linkedin, Twitter } from "lucide-react";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -124,6 +125,33 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <div className="flex justify-center gap-4 mt-4">
+            <a
+              href="https://github.com/parthshah04"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#D94E28] hover:text-[#F9744C]"
+            >
+              <Github size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/parth-shah-72822816b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#D94E28] hover:text-[#F9744C]"
+            >
+              <Linkedin size={24} />
+            </a>
+            <a
+              href="https://x.com/_ParthShah__"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#D94E28] hover:text-[#F9744C]"
+            >
+              <Twitter size={24} />
+            </a>
+          </div>
         </form>
       </motion.div>
 
