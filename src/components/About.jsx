@@ -54,15 +54,9 @@ const About = () => {
         Results-driven Software Developer with over 3.5 years of experience in
         product and service-based startup environments, specializing in backend
         development and blockchain technologies. Proficient in designing
-        scalable microservices architectures and implementing robust database
-        management systems using Node.js, Express.js, MongoDB, and MySQL.
-        Experienced in developing smart contracts, DeFi protocols, and NFTs,
-        with a strong foundation in blockchain innovations. Demonstrated ability
-        to lead complex projects, communicate effectively with clients, and
-        collaborate seamlessly with cross-functional teams. Currently pursuing a
-        Master of Applied Computing, committed to leveraging technical expertise
-        and innovative mindset to drive impactful solutions in software
-        development.
+        scalable architectures and implementing robust systems. Demonstrated
+        ability to lead complex projects, communicate effectively with clients,
+        and collaborate seamlessly with cross-functional teams.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
