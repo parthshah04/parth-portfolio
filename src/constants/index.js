@@ -125,7 +125,7 @@ const experiences = [
     company_name: "Expense Trend Inc.",
     icon: expensetrend,
     iconBg: "#E6DEDD",
-    date: "August 2024 - Present",
+    date: "August 2024 - November 2024",
     points: [
       "Developed and managed backend APIs for a mobile application, integrating various financial aggregators to retrieve and process institutional data.",
       "Streamlined data handling processes, enabling more efficient analysis and enhanced presentation of users' financial insights.",
